@@ -1,10 +1,16 @@
 body {
     background-color: #7F8C8D;
 }
+
+p {
+    font-size: .77em;
+    padding: 0 30px;
+
+}
 .container {
     max-width: 600px;
     margin: auto;
-    background-color: white;
+    background-color: #ECF0F1;
 }
 
 .header {
@@ -12,7 +18,7 @@ body {
     height: 250px;
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .header > h1 {
@@ -54,7 +60,7 @@ body {
     width: 200px;
     float: right;
     margin-right: -235px;
-    background-color: white;
+    background-color: #ECF0F1;
     padding: 10px 10px;
     border-bottom: 3px #2F4256 solid;
 }
@@ -67,8 +73,45 @@ body {
 .aside p {
     padding-left: 10px;
     color: grey;
+    font-weight: bold;
 }
 
-article  {
+article {
     padding: 18px;
+}
+article h2 {
+    font-size: 1em;
+}
+
+article span {
+    color: orangered;
+}
+
+section {
+    padding: 0 18px;
+}
+
+section h3 {
+    font-size: .85em;
+    padding-left: 10px;
+}
+
+table, tr, th, thead, td {
+    border:2px solid darkgrey;
+    padding: 8px;
+    font-size: .9em;
+}
+
+thead {
+    background-color: lightgrey;
+    text-align: left;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: cornflowerblue;
+    width: 75px;
+    color: white;
+    border: none;
+    padding: 8px;
 }
