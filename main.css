@@ -7,6 +7,11 @@ p {
     padding: 0 30px;
 
 }
+
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 600px;
     margin: auto;
@@ -114,4 +119,15 @@ thead {
     color: white;
     border: none;
     padding: 8px;
+}
+
+.code {
+    font-family: COURIER;
+    color: #444;
+    background-color: darkgrey;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-size: .77em;
 }
